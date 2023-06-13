@@ -5,6 +5,7 @@ import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.lifecycle.Lifecycle
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.After
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -15,9 +16,7 @@ class FragmentTest {
     @After
     fun tearDown() {
 //        решение проблемы остановки JUnit https://stackoverflow.com/questions/35042779/how-to-disable-android-studio-unit-tests-androidtest
-        while (true) {
-            Thread.sleep(2000)
-        }
+        while (true) {}
     }
 
 
